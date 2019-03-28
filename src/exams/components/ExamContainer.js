@@ -1,17 +1,19 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import { nextQuestion } from '../actions'
+import { nextIndex } from '../actions'
+import { choose } from '../../results/actions'
 import Exam from './Exam'
 import data from '../../data.json'
 
 const mapStateToProps = state => ({
-  data: data,
+  testData: data.questions[state.currentIndex],
   currentIndex: state.currentIndex
 })
 
 const mapDisPatchToProps = dispatch => ({
-  nextQuestion: bindActionCreators(nextQuestion, dispatch)
+  nextIndex: bindActionCreators(nextIndex, dispatch),
+  choose: bindActionCreators(choose, dispatch)
 })
 
 const ExamContainer = connect(

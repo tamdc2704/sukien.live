@@ -1,6 +1,6 @@
 import { createReducer } from 'redux-starter-kit'
-import { nextQuestion } from './actions'
+import { nextIndex } from './actions'
 
 export default createReducer(0, {
-  [nextQuestion]: state => state + 1
+  [nextIndex]: (state, action) => state + action.payload
 })
