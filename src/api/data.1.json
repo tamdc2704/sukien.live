@@ -1,0 +1,50 @@
+{
+  "answers": {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the first question?",
+      "options": [
+        {"key": "a", "text": "option a"},
+        {"key": "b", "text": "option b"},
+        {"key": "c", "text": "option c"},
+        {"key": "d", "text": "option d"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Who is the second one?",
+      "options": [
+        {"key": "a", "text": "option aa"},
+        {"key": "b", "text": "option bb"},
+        {"key": "c", "text": "option cc"},
+        {"key": "d", "text": "option dd"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which is the third TV?",
+      "options": [
+        {"key": "a", "text": "option aaa"},
+        {"key": "b", "text": "option bbb"},
+        {"key": "c", "text": "option ccc"},
+        {"key": "d", "text": "option ddd"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When does it finish?",
+      "options": [
+        {"key": "a", "text": "option aaaa"},
+        {"key": "b", "text": "option bbbb"},
+        {"key": "c", "text": "option cccc"},
+        {"key": "d", "text": "option dddd"}
+      ]
+    }
+  ]
+}
